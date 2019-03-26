@@ -1,0 +1,186 @@
+@import url('https:fonts.googleapis.com/css?family=Poppins:400,500,700');
+
+html, body{
+    height: 100%;
+    width: 100%;
+    font-family: 'Poppins', sans-serif;
+    color: #222;
+}
+
+navbar{
+    padding: .8rem;
+} 
+
+.navbar-nav li{
+    padding-right: 30px;
+}
+
+.nav-link{
+    font-size: 1.1em !important;
+}
+
+.foot:hover {
+    color: gray;
+    
+}
+
+.carousel-inner img{
+    width: 100%;
+    height: 100%;
+}
+
+.carousel-caption {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.carousel-caption h1 {
+    font-size: 500%;
+    text-transform: lowercase;
+    text-shadow: 1px 1px 15px #222;
+}
+
+.carousel-caption h3 {
+    font-size: 150%;
+    font-weight: 500;
+    text-shadow: 1px 1px 10px #000;
+    padding-bottom: 1rem;
+}
+
+.video{
+    padding-top:10px;
+}
+
+.btn-primary {
+    background-color:lightgrey;
+    border: 1px solid lightgrey;  
+}
+
+.btn-primary:hover {
+    background-color: gray;
+    border: 1px solid gray;
+}
+
+.jumbotron {
+    padding: 2rem;
+    border-radius: 0;
+}
+
+
+.padding {
+    padding: 1rem;
+}
+
+.More{
+    font-size: 12px;
+    color: black;
+}
+
+.More:hover{
+    color: black;
+}
+
+.welcome {
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 2rem;
+}
+
+.welcome hr {
+    border-top: 2px solid #b4b4b4;
+    width: 95%;
+    margin-bottom: 1rem;
+    margin-top: .3rem;
+}
+
+
+/*
+.fa-code{
+    color:
+}
+.fa-bold{
+    color:
+}
+.fa-css3{
+    color:
+}
+.fa-code, .fa-bold,. fa-css3{
+    font-size: 4em;
+    margin: 1rem;
+}
+*/
+
+.icon {
+    margin: 5rem;
+}
+
+.fun {
+    width: 100%;
+    margin-bottom: 2rem;
+    color: black
+}
+
+.fun:hover{
+    background-color: lightgray;
+}
+
+.social a{
+    font-size: 4.5em;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+/*
+.gif {
+    max-width" 
+}
+
+
+.fa-facebook{
+    color: #000
+}
+.fa-twitter{
+    color: #000
+}
+
+.fa-facebook:hover,.fa-twitter:hover{
+color: d5d5d5;
+}
+*/
+
+footer{
+    background-color: #3f3f3f;
+    padding-top: 2rem;
+    color: #d5d5d5;
+}
+
+hr.light {
+    border-top: 1px solid #d5d5d5;
+    width: 75%;
+    margin-top: .8rem;
+    margin-bottom: 1rem;
+}
+
+footer a{
+    color: #d5d5d5;
+}
+
+hr.light-100 {
+    border-top: 1px solid #d5d5d5;
+    width: 100%;
+    margin-top: .8rem;
+    margin-bottom: 1rem;
+}
+
+hr.light-60 {
+    width: 60%;
+    margin-top: .8rem;
+    margin-bottom: 1rem;
+}
+
+hr.light-40 {
+    width: 27%;
+    margin-top: .8rem;
+    margin-bottom: 1rem;
+}
